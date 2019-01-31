@@ -1,1 +1,0 @@
-alert("Benvenuti nel Bar-Ista");
