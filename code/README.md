@@ -1,3 +1,3 @@
-# Bar-Iista
+# Bar-ista
 
 English presentation for CLIL.
