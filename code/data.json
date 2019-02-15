@@ -1,0 +1,11 @@
+{
+    "productList": [
+        {
+            "product": "Pizza",
+            "price": 1
+        },{
+            "product": "Caffè",
+            "price": 0.60
+        }
+    ]
+}
