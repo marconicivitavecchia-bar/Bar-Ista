@@ -1,13 +1,154 @@
-body{
-    margin: 0;
-}
-h1{
-    font-size: 120px;
-  
-  background: linear-gradient(to right, #3333ff,#ff33cc,#ffcc33);
-  background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
- display: inline;
-}
+    body{
+        margin: 0;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        font-size: 50px;
+    position: absolute;
+    background: linear-gradient(to right, #3333ff,#ff33cc,#ffcc33);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline;
+
+    }
+    .header{
+        width: 100%;
+        height: 100px;
+    }
+
+    .footer {
+        position: fixed;
+        left:0;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+        background-color: lightgrey;
+     }
+    #main{
+        width: 100%;
+        height: 100px;
+       position: absolute;
+       top: 10%;
+       height: 80%;
+    }
+    /*div product css*/
+    .product{
+        position: static;
+        margin: 10% 5% 10% 5%;
+        width: 90%;
+        height: 41%;
+       /* background-color: lightgray;*/
+    }
+
+    .image_product{
+        position: static;
+        width: 100%;
+        height: 61%;
+        
+    }
+    .descrition{
+        position: absolute;
+        width: 45%;
+        height: 16%;
+        left: 30%;
+        text-align: center;
+    }
+    .add{
+        position: absolute;
+        right: 5%;
+        width: 20%;
+        height: 16%;
+        background-color: darkblue;
+    }
+    .like{
+        position: absolute;
+        left: 10%;
+        width: 23%;
+        height: 10%;
+    }
+    .nome{
+        font-weight: 900;
+        font-size: x-large;
+    }
+    .prezzo{
+        font-weight: normal;
+        font-size: small;
+    }
+    
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    .far.fa-heart{
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+    }
+    span{
+        position: absolute;
+        right: 30%;
+        top: 55%;
+    }
+    /*Search css*/
+    form{
+        position: absolute;
+        top: 44px;
+        right: 0;    
+        transition: all 1s;
+        width: 50px;
+        height: 50px;
+        background: white;
+        box-sizing: border-box;
+        border-radius: 25px;
+        border: 4px solid white;
+        padding: 5px;
+    }
+
+    input{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 42.5px;
+        line-height: 30px;
+        outline: 0;
+        border: 1px solid gray;
+        display: none;
+        font-size: 1em;
+        border-radius: 20px;
+        padding: 0 20px;
+    }
+
+    .fa{
+        box-sizing: border-box;
+        padding: 10px;
+        width: 42.5px;
+        height: 42.5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        color: #07051a;
+        text-align: center;
+        font-size: 1.2em;
+        transition: all 1s;
+    }
+
+    form:hover{
+        width: 180px;
+        cursor: pointer;
+    }
+
+    form:hover input{
+        display: block;
+    }
+
+    form:hover .fa{
+        background: #07051a;
+        color: white;
+    }
