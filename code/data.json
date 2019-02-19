@@ -1,11 +1,25 @@
 {
     "productList": [
-        {
-            "product": "Pizza",
-            "price": 1
+        {   
+            "id":1,
+            "product": "Pizza bianca",
+            "price": 1,
+            "like":0
         },{
+            "id":2,
             "product": "Caffè",
-            "price": 0.60
+            "price": 0.60,
+            "like":139
+        },{
+            "id":3,
+            "product":"Hot dog",
+            "price":2,
+            "like":347
+        },{
+            "id":4,
+            "product":"Pizza rossa",
+            "price":1.20,
+            "like":277
         }
     ]
 }

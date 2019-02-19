@@ -42,6 +42,7 @@
         margin: 10% 5% 10% 5%;
         width: 90%;
         height: 41%;
+        
        /* background-color: lightgray;*/
     }
 
@@ -63,7 +64,20 @@
         right: 5%;
         width: 20%;
         height: 16%;
-        background-color: darkblue;
+        text-align: center;
+    }
+    .btnAdd{
+        width: 80%;
+        height: 30%;
+        color: #fff!important;
+        background-color: #f44336!important;
+        border: none;
+        display: inline-block;
+       position: absolute;
+       top: 25%;
+       right: 5%;
+       
+
     }
     .like{
         position: absolute;
