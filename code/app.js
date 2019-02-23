@@ -1,9 +1,8 @@
-
 var app = {
     init: function () {
         console.log("init inside app!");
         $("title").text("Bar-Ista");
-        $.getJSON("data.json")
+        $.getJSON("data.php")
             .done(app.onSuccess)
             .fail(app.onError);
 
@@ -40,17 +39,5 @@ var app = {
     }
 };
 
-$(document).ready(app.init);/*
-document.getElementsByClassName("far fa-heart")[0].ondblclick=like;
-document.getElementsByClassName("btnAdd")[0].onclick=addToShop;
-function addToShop(){
-   console.log("Click me");
+$(document).ready(app.init);
 
-
-}
-function like(){
-    var like=document.getElementById("count");
-    document.getElementById("count").innerHTML=100+1;
-    document.getElementsByClassName("far fa-heart")[0].style.backgroundColor="red";
-}
-*/
