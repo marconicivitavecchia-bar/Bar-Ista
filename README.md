@@ -17,4 +17,4 @@ At the bottom of the page there are 3 buttons:
 
 
 
-<img src= "./design/home.png">
+<img src= "./design/Home.png">
